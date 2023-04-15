@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somando</title>
+</head>
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="n1" id="n1"> +
+    <input type="number" name="n2" id="n2">
+    <input type="button" value="somar" onclick="somar()">
+    <div id="res">Resultado</div>
+    <script>
+        function somar(){
+        //    'n1' e 'n2' são as varieaveis de ids nao de numeros (linha:11 e 12)
+            var n1 = document.getElementById('n1')
+            var n2 = document.getElementById('n2')
+            var res = document.getElementById('res')
+            var num1 = Number(n1.value)
+            var num2 = Number(n2.value)
+            var s = num1 + num2
+            res.innerText = (`a soma entre ${num1} e ${num2} foi ${s}`)
+        }
+    </script>
+</body>
+</html>

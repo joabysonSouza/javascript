@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> eventos do DOM</title>
+    <style>
+        #evento{
+            color: white;
+            font-size: 1.5em;
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="evento"> Interaja</div>
+    
+    <script>
+          var a = document.getElementById('evento')
+            //  o addEventListener presta atenção em um determinado evento que nesse caso seria a função "clicar"
+            // aula10
+         a.addEventListener('click', clicar)
+       
+          a.addEventListener('mouseenter', entrar )
+          a.addEventListener('mouseout', saiu)
+
+        function clicar() {
+            a.innerText = "clicou"  
+            a.style.backgroundColor ="blue" 
+        }
+        function entrar(params){
+            a.innerText ="entrou"
+            
+        }
+        function saiu(){
+            a.innerText ="saiu"
+            a.style.backgroundColor ="red"
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+h1{
+    font-size: 3em;
+}
+button{
+    padding: 8px;
+    font-size: 1em;
+}
+button:hover{
+    cursor: pointer;
+}
+.start{
+    background-color: green;
+}
+.pause{
+    background-color: darkgray;
+}
+.stop{
+    background-color: red;
+}
