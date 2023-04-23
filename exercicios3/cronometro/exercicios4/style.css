@@ -32,6 +32,13 @@ header{
     text-align: center;
 
 }
+p{
+    font-weight: bold;
+}
+#flista{
+    width:130px;
+    
+}
 #res{
     font-weight: bold;
     font-size: 1.3em;
