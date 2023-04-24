@@ -36,8 +36,8 @@ p{
     font-weight: bold;
 }
 #flista{
-    width:130px;
-    
+    width: 160px;
+    height: auto;
 }
 #res{
     font-weight: bold;
