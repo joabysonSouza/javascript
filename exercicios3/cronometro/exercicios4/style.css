@@ -22,7 +22,7 @@ section{
     border-radius: 10px;
     margin: auto;
     box-shadow: 1px 1px 1px black;
-    line-height: 1.5em;
+    line-height: 1.3em;
     height:auto;
 
 
@@ -34,6 +34,7 @@ header{
 }
 p{
     font-weight: bold;
+    padding: 0.5em;
 }
 #flista{
     width: 160px;
@@ -42,7 +43,7 @@ p{
 #res{
     font-weight: bold;
     font-size: 1.3em;
-    padding-top:50px;
+    padding-top: 1.3em;
 }
 footer{
     text-align: center;
